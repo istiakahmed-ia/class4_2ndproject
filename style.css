@@ -1,0 +1,151 @@
+body{
+	margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+	border-bottom: 5PX #282923
+}
+.content{
+	margin: 0 auto;
+	width: 85%;
+	overflow: hidden;
+	/*border: 1px solid white;*/
+
+}
+.logo{
+	float: left;
+    width: 11%;
+    /*border: 1px solid white;*/
+    padding: 0.3%
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+
+	width: 68%;
+	float: right;
+	/*border: 1px solid white;*/
+
+}
+
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+
+
+
+}
+.menu ul li a{
+	margin: 31px 61px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #F0EFF4;
+    display: block;
+    transition: 0.3s;
+    
+}
+.menu ul li a:hover{
+	color: #0177BD
+}
+.menu ul li:nth-child(5) a{
+	margin-right:0px; 
+}
+/*header end*/
+/*banner start*/
+.banner {
+	background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+}
+
+.b_content {
+    margin-top: 280px;
+    margin-bottom: 284px;
+    margin-left: 25px;
+    width: 73%;
+    line-height: 0.5;
+}
+.b_content h2{
+    font-size: 51px;
+    color: #FFFFFF;
+    width: 43%;
+    margin-top: 340px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+}
+.b_content h1{
+	font-size: 54px;
+    color: #0274BA;
+    width: 65%;
+    margin-top: 41px;
+    margin-left: 25px;
+
+}
+.b_content p{
+	margin-top: 38px;
+    margin-left: 25px;
+    width: 47%;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 100;
+}
+button{
+	margin: 25px;
+    padding: 20px;
+    font-size: 20px;
+    color: #656565;
+}
+
+/*banner end*/
+.service{
+	width: 100%;
+    background-color: #121B2C;
+}
+.box1{
+    width: 33%;
+    float: left;
+    margin-left: 5px;
+}
+.box1title{
+	width: 61%;
+    overflow: hidden; 
+}
+.box1img{
+	width: 33%;
+    float: left;
+    display: block;
+    margin-top: 6px;
+}
+.box1img img{
+	width: 100%;
+}
+.box1heading{
+	width: 66%;
+    float: right;
+    display: block;
+    /* margin-top: 0px; */
+    line-height: 0.5;
+}
+.box1heading h2{
+	font-size: 29px;
+    color: #FDFFFE;
+}
+.box1heading h3{
+	color: #0079BF;
+    font-size: 25px;
+}
+.box1text{
+	color: #FDFFFE;
+    width: 67%;
+    float: left;
+
+}
